@@ -16,3 +16,5 @@ export default function Player({ player, hand }) {
     </div>
   );
 }
+
+//netlify deployment underway
