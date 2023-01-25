@@ -4,7 +4,7 @@ import { GameContext } from '../context/GameContext.js';
 import CardList from './CardList';
 
 export default function Player({ player, hand }) {
-  const { selectedCard, setSelectedCard, setFrom, setTo, to } = useContext(GameContext);
+  const { setTo, to } = useContext(GameContext);
 
   return (
     <div
